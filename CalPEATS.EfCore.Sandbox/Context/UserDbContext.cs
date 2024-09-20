@@ -34,7 +34,7 @@ namespace CalPEATS.EfCore.Sandbox
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite(@"Data Source=C:\Users\mahar\Downloads\User.db;");
+                optionsBuilder.UseSqlite(@"Data Source=C:\Users\thomasvoth\Downloads\User.db;");
             }
         }
 

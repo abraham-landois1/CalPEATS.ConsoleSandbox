@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalPEATS.ConsoleSandbox", "CalPEATS.ConsoleSandbox\CalPEATS.ConsoleSandbox.csproj", "{566FC898-D07D-4528-9E2F-B383D4942635}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B17CDAB4-F6B5-4670-9681-6BD111DCEB63} = {B17CDAB4-F6B5-4670-9681-6BD111DCEB63}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalPEATS.EfCore.Sandbox", "CalPEATS.EfCore.Sandbox\CalPEATS.EfCore.Sandbox.csproj", "{B17CDAB4-F6B5-4670-9681-6BD111DCEB63}"
 EndProject
@@ -18,5 +24,11 @@ Global
 		{B17CDAB4-F6B5-4670-9681-6BD111DCEB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B17CDAB4-F6B5-4670-9681-6BD111DCEB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B17CDAB4-F6B5-4670-9681-6BD111DCEB63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9024C972-E8BC-4395-A0DA-8CD9F242B421}
 	EndGlobalSection
 EndGlobal
